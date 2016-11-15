@@ -24,6 +24,10 @@ sudo dpkg -i unrar_5.2.6-1_armhf.deb
 sudo rm  unrar_5.2.6-1_armhf.deb
 echo "Unrar installed"
 echo " "
+echo "Installing rsync"
+sudo apt-get install rsync --yes --force-yes rsync
+echo "rsync installed"
+echo " "
 echo "Cloning CouchPotato to /opt/CouchPotatoServer"
 sudo git clone http://github.com/RuudBurger/CouchPotatoServer /opt/CouchPotatoServer
 echo "Successfully cloned"
