@@ -1,5 +1,5 @@
 #!/bin/sh
-# Installation script of Sickrage and CouchPotato
+# Installation of services / apps used for a fresh install of OSMC on my Vero2
 echo "Updating package list"
 sudo apt-get --yes --force-yes update
 echo "Installing osmc apps:"
